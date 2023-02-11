@@ -17,8 +17,7 @@
 }
 
 .logo img{
-    width: 70px;
-    height: auto;
+    width: 70px
 }
 
 nav{
@@ -49,9 +48,9 @@ nav ul li{
 
 nav ul li a{
     color: #fff;
-    texte text-decoration: none;
-    font-weigth: bold;
-    text-transforme: capitalize;
+     text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 nav ul li a:hover{
@@ -61,27 +60,28 @@ nav ul li a:hover{
 
 .Principal{
     position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50);
+    width: 100%;
 }
 
-h4{
+.titulo{
     color: #fff;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 20px;
 }
 
-h1{
+.nome{
     color: #fff;
-    margin: 20px 0px 20px;
+    margin: 20px 0px 20px 20px;
     font-size: 70px;
+    
 }
 
-h3{
+.formação{
     color: #fff;
     font-size: 25px;
     margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 .Container-btn form{
@@ -98,6 +98,8 @@ h3{
     border: 2px solid #e98c1c;
     border-radius: 30px;
     outline: none;
+    margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 .Container-btn form input:last-child{
@@ -286,4 +288,8 @@ footer p{
     color: #e98c1c;
     bottom: 35px;
     font-size: 14px ;
+}
+
+#mail{
+    margin-bottom: 50px;
 }
