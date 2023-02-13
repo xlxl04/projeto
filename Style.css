@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 2040px;
+    height: 1300px;
     width: -80px;
     max-width: 100%;
 }
@@ -189,13 +189,13 @@ nav ul li a:hover{
     color: #fff;
     font-size: 75px;
     width: 1130px;
-    margin: 30px auto;
+    margin-bottom: 30px ;
     text-align: center;
 }
 
 .Caixa{
     display: flex;
-    align-items: center;
+    justify-content: center;
     min-height: 400PX;
     flex-wrap: wrap;
 }
@@ -245,6 +245,7 @@ footer{
 footer h6{
     font-size: 35px;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 footer p{
@@ -253,13 +254,13 @@ footer p{
     width: 500px;
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 20px;
     letter-spacing: 1px;
     line-height: 23px;
 }
 
 .Redes-sociais{
     display: flex;
-
 }
 
 .Redes-Sociais a{
@@ -273,7 +274,7 @@ footer p{
     text-decoration: none;
     font-size: 20px;
     align-items: center;
-    display: flex;
+    display: inline;
     justify-content: center;
     flex-direction: row;
 }
